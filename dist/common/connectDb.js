@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 connectDatabase = () => {
   // mongoose.connect(`${process.env.DB_URL}`, {
-  mongoose.connect(`mongodb+srv://manaf:manaf123@cluster0.wlcdgum.mongodb.net/?retryWrites=true&w=majority`, {
+  mongoose.connect(`DB-URL`, {
     useUnifiedTopology: true,
     useFindAndModify: false,
     useNewUrlParser: true,
